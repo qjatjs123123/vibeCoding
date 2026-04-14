@@ -6,21 +6,21 @@
 
 ## Phase 0: 프로젝트 셋업
 
-- [ ] P0-1: FastAPI 프로젝트 초기화 (pyproject.toml, app/ 디렉토리 구조)
-- [ ] P0-2: 프로덕션 의존성 설치
+- [x] P0-1: FastAPI 프로젝트 초기화 (pyproject.toml, app/ 디렉토리 구조)
+- [x] P0-2: 프로덕션 의존성 설치
       (fastapi, sqlalchemy, alembic, pydantic, pydantic-settings, python-jose,
        passlib, bcrypt, python-multipart, cloudinary, python-slugify, email-validator)
-- [ ] P0-3: 개발 의존성 설치
+- [x] P0-3: 개발 의존성 설치
       (pytest, pytest-asyncio, httpx, pytest-cov)
-- [ ] P0-4: app/core/config.py — 환경변수 설정 (Settings with pydantic-settings)
-- [ ] P0-5: .env.local 환경변수 파일 생성
+- [x] P0-4: app/core/config.py — 환경변수 설정 (Settings with pydantic-settings)
+- [x] P0-5: .env.local 환경변수 파일 생성
       (DATABASE_URL, GITHUB/GOOGLE CLIENT ID·SECRET, JWT_SECRET, CLOUDINARY 키)
-- [ ] P0-6: app/db/base.py 및 SQLAlchemy 엔진/세션 설정
-- [ ] P0-7: app/models/ 에 SQLAlchemy ORM 모델 작성
+- [x] P0-6: app/db/base.py 및 SQLAlchemy 엔진/세션 설정
+- [x] P0-7: app/models/ 에 SQLAlchemy ORM 모델 작성
       (User, Post, Tag, PostTag, Comment, Like, Series, PostSeries)
-- [ ] P0-8: alembic init 및 alembic/env.py 설정 (SQLAlchemy metadata 자동 감지)
-- [ ] P0-9: alembic revision --autogenerate -m "init" (초기 마이그레이션)
-- [ ] P0-10: alembic upgrade head (DB 마이그레이션)
+- [x] P0-8: alembic init 및 alembic/env.py 설정 (SQLAlchemy metadata 자동 감지)
+- [ ] P0-9: alembic revision --autogenerate -m "init" (초기 마이그레이션) [DB 필요]
+- [ ] P0-10: alembic upgrade head (DB 마이그레이션) [DB 필요]
 
 ---
 

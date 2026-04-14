@@ -56,7 +56,7 @@ npx tsc --noEmit
 
 **Playwright MCP 실시간 검증:**
 
-> ⚠️ 선행조건: `npm run dev` 실행 중
+> ⚠️ 선행조건: `pnpm dev` 실행 중
 
 1. 해당 페이지 URL로 navigate (예: `http://localhost:3000/recent`)
 2. screenshot 캡처 → 렌더링 확인
@@ -69,7 +69,7 @@ npx tsc --noEmit
 
 **빌드 검증:**
 ```bash
-npm run build
+pnpm build
 ```
 경고 없이 빌드 완료.
 
@@ -197,4 +197,4 @@ export const config = {
 - **generateStaticParams**: 모든 경로를 미리 생성 가능한가? (가능하면 구현)
 - **에러 처리**: `error.tsx` + `not-found()` 사용
 - **로딩 상태**: `loading.tsx` 또는 `<Suspense>` fallback
-- **빌드 검증**: `npm run build` 성공 필수
+- **빌드 검증**: `pnpm build` 성공 필수

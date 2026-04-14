@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm create:*)",
+      "Bash(cp CLAUDE.md /tmp/CLAUDE.md)",
+      "Bash(cp TODO.md /tmp/TODO.md)",
+      "Bash(rm CLAUDE.md TODO.md)",
+      "Bash(cp /tmp/CLAUDE.md CLAUDE.md)",
+      "Bash(cp /tmp/TODO.md TODO.md)",
+      "Bash(cp -r /tmp/next-app-test/* /c/Users/bhong029/Desktop/공부/vibeCoding/frontend/)",
+      "Bash(cp /tmp/CLAUDE.md /c/Users/bhong029/Desktop/공부/vibeCoding/frontend/CLAUDE.md)",
+      "Bash(cp /tmp/TODO.md /c/Users/bhong029/Desktop/공부/vibeCoding/frontend/TODO.md)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm install:*)"
+    ]
+  }
+}

@@ -24,7 +24,7 @@ npx create-next-app@latest vibeCoding-frontend \
 
 #### P0-2: 주요 의존성 설치
 ```bash
-npm install \
+pnpm add \
   @tanstack/react-query@latest \
   zustand \
   zod \
@@ -42,7 +42,7 @@ npm install \
 
 #### P0-3: 개발 의존성 설치
 ```bash
-npm install --save-dev \
+pnpm add -D \
   vitest \
   @vitest/ui \
   jsdom \
@@ -188,7 +188,7 @@ export default defineConfig({
     screenshot: 'only-on-failure',
   },
   webServer: {
-    command: 'npm run dev',
+    command: 'pnpm dev',
     url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
   },
@@ -211,18 +211,18 @@ ls -la frontend/
 
 **의존성 설치:**
 ```bash
-npm list @tanstack/react-query
-npm list vitest
+pnpm list @tanstack/react-query
+pnpm list vitest
 ```
 
 **설정 파일:**
 ```bash
-npx tsc --noEmit  # TypeScript 오류 없는지 확인
+pnpx tsc --noEmit  # TypeScript 오류 없는지 확인
 ```
 
 **개발 서버:**
 ```bash
-npm run dev  # http://localhost:3000에서 앱 시작 확인
+pnpm dev  # http://localhost:3000에서 앱 시작 확인
 ```
 
 ### 5️⃣ 체크
@@ -258,7 +258,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 - **Create-next-app**: 대화형 프롬프트에서 App Router, Tailwind v4 선택
 - **패키지 버전**: `@tanstack/react-query@latest` (v5.x)
 - **reflect-metadata**: inversify 사용을 위해 필수 (import 순서 중요)
-- **개발 서버**: Phase 1부터 `npm run dev` 실행 상태 유지
+- **개발 서버**: Phase 1부터 `pnpm dev` 실행 상태 유지
 
 ---
 

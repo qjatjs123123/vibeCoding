@@ -309,7 +309,7 @@ export default defineConfig({
     screenshot: 'only-on-failure',
   },
   webServer: {
-    command: 'npm run dev',
+    command: 'pnpm dev',
     url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
   },
@@ -497,22 +497,22 @@ describe('InfinitePostList', () => {
 
 ```bash
 # 단위 테스트 실행
-npm run test
+pnpm test
 
 # UI 함께 보기
-npm run test -- --ui
+pnpm test -- --ui
 
 # 특정 파일만
-npm run test -- PostCard.test.tsx
+pnpm test -- PostCard.test.tsx
 
 # 커버리지 리포트
-npm run test -- --coverage
+pnpm test -- --coverage
 
 # E2E 테스트
-npm run test:e2e
+pnpm test:e2e
 
 # E2E UI 모드
-npx playwright test --ui
+pnpx playwright test --ui
 ```
 
 ---

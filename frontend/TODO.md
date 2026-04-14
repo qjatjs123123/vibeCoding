@@ -6,14 +6,14 @@
 
 ## Phase 0: 프로젝트 셋업
 
-- [ ] P0-1: Next.js 15 App Router 프로젝트 초기화 (TypeScript, Tailwind v4)
-- [ ] P0-2: 의존성 설치 (TanStack Query v5, Zustand, Zod, axios, inversify, next-themes)
-- [ ] P0-3: 개발 의존성 설치 (Vitest, @testing-library/react, MSW, Playwright)
-- [ ] P0-4: tsconfig.json path alias (@) 설정
-- [ ] P0-5: src/lib/axios.ts 기본 클라이언트 설정 (baseURL, credentials, 인터셉터)
-- [ ] P0-6: src/di/container.ts inversify DI 컨테이너 초기화
-- [ ] P0-7: vitest.config.ts + vitest.setup.ts 설정
-- [ ] P0-8: playwright.config.ts 설정
+- [x] P0-1: Next.js 15 App Router 프로젝트 초기화 (TypeScript, Tailwind v4)
+- [x] P0-2: 의존성 설치 (TanStack Query v5, Zustand, Zod, axios, inversify, next-themes)
+- [x] P0-3: 개발 의존성 설치 (Vitest, @testing-library/react, MSW, Playwright)
+- [x] P0-4: tsconfig.json path alias (@) 설정
+- [x] P0-5: lib/axios.ts 기본 클라이언트 설정 (baseURL, credentials, 인터셉터)
+- [x] P0-6: di/container.ts inversify DI 컨테이너 초기화
+- [x] P0-7: vitest.config.ts + vitest.setup.ts 설정
+- [x] P0-8: playwright.config.ts 설정
 
 ---
 

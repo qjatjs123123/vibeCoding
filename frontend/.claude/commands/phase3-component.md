@@ -47,7 +47,7 @@ npx tsc --noEmit
 
 **Step B — Playwright MCP 실시간 검증:**
 
-> ⚠️ 선행조건: `npm run dev` 실행 중 + `/dev/components/[name]` 페이지 등록
+> ⚠️ 선행조건: `pnpm dev` 실행 중 + `/dev/components/[name]` 페이지 등록
 
 1. `http://localhost:3000/dev/components/{ComponentName}` 으로 navigate
 2. screenshot 캡처 → 렌더링 확인

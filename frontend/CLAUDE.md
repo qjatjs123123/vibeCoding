@@ -269,9 +269,9 @@ frontend/src/
 ## 개발 명령어
 
 ```bash
-npm run dev          # 개발 서버
-npm run build        # 프로덕션 빌드
-npm run start        # 프로덕션 실행
-npm run lint         # 린트
-npm run type-check   # TypeScript 체크
+pnpm dev             # 개발 서버
+pnpm build           # 프로덕션 빌드
+pnpm start           # 프로덕션 실행
+pnpm lint            # 린트
+pnpm type-check      # TypeScript 체크
 ```

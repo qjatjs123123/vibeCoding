@@ -602,4 +602,4 @@ src/features/{domain}/
     └── {Domain}Repository.test.ts  ✅ Step 8
 ```
 
-모든 파일이 생성된 후 `npm run test` 통과 확인.
+모든 파일이 생성된 후 `pnpm test` 통과 확인.

@@ -28,13 +28,13 @@
 
 ### 1️⃣ 선행 조건 확인
 ```bash
-✅ npm run dev (running on localhost:3000)
+✅ pnpm dev (running on localhost:3000)
 ✅ 소스 파일 저장됨
 ```
 
 사용자에게 요청:
 ```
-npm run dev가 실행 중입니다. 계속할까요? (Y/n)
+pnpm dev가 실행 중입니다. 계속할까요? (Y/n)
 ```
 
 ### 2️⃣ Playwright MCP Navigate
@@ -212,7 +212,7 @@ Error: Property 'title' does not exist on type 'Post'.
 ## 주의사항
 
 ### ⚠️ 개발 서버 필수
-- `/verify` 실행 전 `npm run dev` 반드시 실행 중
+- `/verify` 실행 전 `pnpm dev` 반드시 실행 중
 - 포트: 3000 (기본값)
 - 다른 포트: `--port 3001` 옵션으로 지정 가능
 
@@ -244,8 +244,8 @@ export default function ComponentPreview({ params }) {
 ### MCP가 응답 안 할 때
 ```bash
 # 1. settings.json에서 playwright MCP 활성화 확인
-# 2. npx @playwright/mcp@latest 설치 확인
-npm list @playwright/mcp
+# 2. pnpx @playwright/mcp@latest 설치 확인
+pnpm list @playwright/mcp
 
 # 3. 개발 서버 포트 확인
 lsof -i :3000
