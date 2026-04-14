@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.egg
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / Coverage
+coverage/
+.coverage
+htmlcov/
+
+# Alembic (마이그레이션 파일은 포함, DB 관련 제외)
+*.db
+*.sqlite3
