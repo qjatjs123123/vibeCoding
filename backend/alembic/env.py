@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.dirname(__file__) + "/..")
 # SQLAlchemy 모델 메타데이터 로드
 from app.db.base import Base
 from app.core.config import get_settings
+from app.models import user, post, comment, tag, series  # 모든 모델 import
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

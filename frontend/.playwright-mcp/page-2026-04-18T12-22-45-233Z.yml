@@ -1,0 +1,84 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "vibeCoding" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Tags" [ref=e8] [cursor=pointer]:
+          - /url: /tags
+      - link "Login" [ref=e10] [cursor=pointer]:
+        - /url: /login
+        - button "Login" [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - textbox "Post title..." [active] [ref=e17]
+            - textbox "Post summary (optional)" [ref=e18]
+          - generic [ref=e19]:
+            - button "Hide settings" [ref=e20]
+            - generic [ref=e21]:
+              - button "Cancel" [ref=e22]
+              - button "Publish" [ref=e23]
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]: Title *
+              - textbox "Post title" [ref=e57]: "테스트 포스트: Playwright 검증"
+              - paragraph [ref=e58]: "Slug: 테스트-포스트:-playwright-검증"
+            - generic [ref=e59]:
+              - generic [ref=e60]: Excerpt (Optional)
+              - textbox "Brief summary of your post" [ref=e61]: Learn how to use the MarkdownEditor
+              - paragraph [ref=e62]: 35/160
+            - generic [ref=e63]:
+              - generic [ref=e64]: Cover Image (Optional)
+              - generic [ref=e65]:
+                - textbox "https://example.com/image.jpg" [ref=e66]: https://via.placeholder.com/800x400
+                - button "Upload" [ref=e67]
+              - img "cover" [ref=e69]
+          - button "Full Width" [ref=e71]
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: Markdown Editor
+              - textbox "Write your markdown here... (supports drag & drop images)" [ref=e75]: "# vibeCoding API 완전 연동 테스트 ## 테스트 항목 - ✅ 로그인/회원가입 - ✅ 토큰 저장 및 요청에 포함 - ✅ 글쓰기 페이지 표시 - ✅ 마크다운 에디터 로드 - ✅ 포스트 발행 API 호출 ## 결과 모든 API 연동이 완벽하게 작동합니다! ```javascript // API 토큰 테스트 const token = authStore.session?.token; console.log('Token exists:', !!token); console.log('Token sent in Authorization header'); ``` 이 포스트가 DB에 저장되고 홈페이지에 표시되면 완벽한 연동 테스트 성공입니다!"
+            - generic [ref=e76]:
+              - generic [ref=e77]: Preview
+              - generic [ref=e79]:
+                - heading "vibeCoding API 완전 연동 테스트" [level=1] [ref=e80]
+                - heading "테스트 항목" [level=2] [ref=e81]
+                - list [ref=e82]:
+                  - listitem [ref=e83]: ✅ 로그인/회원가입
+                  - listitem [ref=e84]: ✅ 토큰 저장 및 요청에 포함
+                  - listitem [ref=e85]: ✅ 글쓰기 페이지 표시
+                  - listitem [ref=e86]: ✅ 마크다운 에디터 로드
+                  - listitem [ref=e87]: ✅ 포스트 발행 API 호출
+                - heading "결과" [level=2] [ref=e88]
+                - paragraph [ref=e89]: 모든 API 연동이 완벽하게 작동합니다!
+                - code [ref=e91]: // API 토큰 테스트 const token = authStore.session?.token; console.log('Token exists:', !!token); console.log('Token sent in Authorization header');
+                - paragraph [ref=e92]: 이 포스트가 DB에 저장되고 홈페이지에 표시되면 완벽한 연동 테스트 성공입니다!
+      - complementary [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - heading "Tags" [level=3] [ref=e29]
+            - generic [ref=e30]:
+              - button "#react" [ref=e31]
+              - button "#typescript" [ref=e32]
+              - button "#nextjs" [ref=e33]
+              - button "#javascript" [ref=e34]
+              - button "#frontend" [ref=e35]
+          - generic [ref=e36]:
+            - heading "Series" [level=3] [ref=e37]
+            - combobox [ref=e38]:
+              - option "No series" [selected]
+              - option "React Masters"
+              - option "TypeScript Guide"
+          - generic [ref=e39]:
+            - heading "Cover Image" [level=3] [ref=e40]
+            - textbox "Image URL (optional)" [ref=e41]
+          - paragraph [ref=e43]: Auto-save is enabled. You can continue editing anytime.
+  - button "Open Next.js Dev Tools" [ref=e49] [cursor=pointer]:
+    - img [ref=e50]
+  - alert [ref=e93]

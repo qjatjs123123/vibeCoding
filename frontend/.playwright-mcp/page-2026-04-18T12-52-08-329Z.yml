@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "vibeCoding" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - link "Login" [ref=e7] [cursor=pointer]:
+        - /url: /login
+        - button "Login" [ref=e8]
+  - main [ref=e9]:
+    - main [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - heading "vibeCoding" [level=1] [ref=e13]
+          - paragraph [ref=e14]: 개발자 블로그 플랫폼에 로그인하세요
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: 이메일
+            - textbox "이메일" [ref=e18]:
+              - /placeholder: you@example.com
+          - generic [ref=e19]:
+            - generic [ref=e20]: 비밀번호
+            - textbox "비밀번호" [ref=e21]:
+              - /placeholder: ••••••••
+          - button "로그인" [ref=e22]
+        - paragraph [ref=e24]:
+          - text: 계정이 없으신가요?
+          - link "회원가입" [ref=e25] [cursor=pointer]:
+            - /url: /register
+  - button "Open Next.js Dev Tools" [ref=e31] [cursor=pointer]:
+    - img [ref=e32]
+  - alert [ref=e35]

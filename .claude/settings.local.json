@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm test:*)",
+      "Bash(timeout 30 pnpm test:ui)",
+      "Bash(pnpm dev:*)",
+      "Bash(curl -s http://localhost:3000/dev/markdown-editor)",
+      "Bash(curl -s \"http://localhost:3000/dev/markdown-editor\")",
+      "Bash(pnpm add:*)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(timeout 60 pnpm test:e2e markdown-editor.spec.ts)",
+      "Bash(xargs -I {} sh -c 'echo \"=== {} ===\" && cat {} | grep -o \"\\\\\"status\\\\\":\\\\\"[^\\\\\"]*\\\\\"\" | sort | uniq -c')",
+      "Bash(git:*)",
+      "Bash(chmod +x:*)",
+      "Bash(bash .claude/hooks/auto-commit-todo.sh)"
+    ]
+  }
+}

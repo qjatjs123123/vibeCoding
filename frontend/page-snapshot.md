@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "vibeCoding" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Tags" [ref=e8] [cursor=pointer]:
+          - /url: /tags
+      - link "Login" [ref=e10] [cursor=pointer]:
+        - /url: /login
+        - button "Login" [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - heading "Oops!" [level=1] [ref=e15]
+      - paragraph [ref=e16]: 문제가 발생했습니다. 다시 시도해주세요.
+      - paragraph [ref=e17]: "Invalid src prop (https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&h=400&fit=crop) on `next/image`, hostname \"images.unsplash.com\" is not configured under images in your `next.config.js` See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host"
+      - generic [ref=e18]:
+        - button "다시 시도" [ref=e19]
+        - link "홈으로" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - button "홈으로" [ref=e21]
+  - generic [ref=e26] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e27]:
+      - img [ref=e28]
+    - generic [ref=e31]:
+      - button "Open issues overlay" [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: "0"
+          - generic [ref=e35]: "1"
+        - generic [ref=e36]: Issue
+      - button "Collapse issues badge" [ref=e37]:
+        - img [ref=e38]
+  - alert [ref=e40]

@@ -1,0 +1,49 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "vibeCoding" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Tags" [ref=e8] [cursor=pointer]:
+          - /url: /tags
+      - link "Login" [ref=e10] [cursor=pointer]:
+        - /url: /login
+        - button "Login" [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - textbox "Post title..." [ref=e17]
+            - textbox "Post summary (optional)" [ref=e18]
+          - generic [ref=e19]:
+            - button "Hide settings" [ref=e20]
+            - generic [ref=e21]:
+              - button "Cancel" [ref=e22]
+              - button "Publish" [ref=e23]
+        - generic [ref=e26]: Loading editor...
+      - complementary [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - heading "Tags" [level=3] [ref=e30]
+            - generic [ref=e31]:
+              - button "#react" [ref=e32]
+              - button "#typescript" [ref=e33]
+              - button "#nextjs" [ref=e34]
+              - button "#javascript" [ref=e35]
+              - button "#frontend" [ref=e36]
+          - generic [ref=e37]:
+            - heading "Series" [level=3] [ref=e38]
+            - combobox [ref=e39]:
+              - option "No series" [selected]
+              - option "React Masters"
+              - option "TypeScript Guide"
+          - generic [ref=e40]:
+            - heading "Cover Image" [level=3] [ref=e41]
+            - textbox "Image URL (optional)" [ref=e42]
+          - paragraph [ref=e44]: Auto-save is enabled. You can continue editing anytime.
+  - button "Open Next.js Dev Tools" [ref=e50] [cursor=pointer]:
+    - img [ref=e51]
+  - alert [ref=e54]

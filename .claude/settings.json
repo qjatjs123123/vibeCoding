@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"/c/Users/bhong029/Desktop/공부/vibeCoding/.claude/hooks/auto-commit-todo.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "vibeCoding" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Tags" [ref=e8] [cursor=pointer]:
+          - /url: /tags
+      - link "Login" [ref=e10] [cursor=pointer]:
+        - /url: /login
+        - button "Login" [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e98]:
+      - generic [ref=e100]:
+        - heading "기술을 기록하다." [level=1] [ref=e101]
+        - paragraph [ref=e102]: 한국 개발자들을 위한 블로그 플랫폼. 마크다운으로 글을 쓰고, 태그와 시리즈로 정리하고, 커뮤니티와 나누세요.
+        - generic [ref=e103]:
+          - link "시작하기" [ref=e104] [cursor=pointer]:
+            - /url: /login
+          - link "태그 탐색" [ref=e105] [cursor=pointer]:
+            - /url: /tags
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - heading "최신 글" [level=2] [ref=e109]
+          - paragraph [ref=e110]: 가장 최근에 발행된 포스트들을 확인하세요.
+        - generic [ref=e111]:
+          - link [ref=e112] [cursor=pointer]:
+            - /url: /react_master/react-18-features
+            - article [ref=e113]:
+              - 'img "Getting Started with React 18: New Features and Best Practices" [ref=e115]'
+              - generic [ref=e116]:
+                - generic [ref=e118]:
+                  - generic "react_master" [ref=e119]:
+                    - img "react_master" [ref=e120]
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: react_master
+                    - generic [ref=e123]: 2024년 4월 15일
+                - 'heading "Getting Started with React 18: New Features and Best Practices" [level=3] [ref=e124]'
+                - paragraph [ref=e125]: React 18 introduces Suspense, automatic batching, and concurrent rendering. Learn how to leverage these features in your next project.
+                - generic [ref=e126]:
+                  - generic [ref=e127]: "#react"
+                  - generic [ref=e128]: "#javascript"
+                  - generic [ref=e129]: "#frontend"
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - generic [ref=e132]: 12 min read
+                    - generic [ref=e133]: 2,847 views
+                    - generic [ref=e134]: 38 comments
+                  - button "Like post by react_master" [ref=e135]:
+                    - generic [ref=e136]: ♥
+                    - generic [ref=e137]: "245"
+          - link [ref=e138] [cursor=pointer]:
+            - /url: /typescript_guru/type-safe-apis-typescript
+            - article [ref=e139]:
+              - img "Building Type-Safe APIs with TypeScript and Zod" [ref=e141]
+              - generic [ref=e142]:
+                - generic [ref=e144]:
+                  - generic "typescript_guru" [ref=e145]:
+                    - img "typescript_guru" [ref=e146]
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: typescript_guru
+                    - generic [ref=e149]: 2024년 4월 14일
+                - heading "Building Type-Safe APIs with TypeScript and Zod" [level=3] [ref=e150]
+                - paragraph [ref=e151]: Learn how to create robust, type-safe APIs using TypeScript and Zod validation. This guide covers best practices and real-world examples.
+                - generic [ref=e152]:
+                  - generic [ref=e153]: "#typescript"
+                  - generic [ref=e154]: "#api"
+                  - generic [ref=e155]: "#validation"
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: 10 min read
+                    - generic [ref=e159]: 1,543 views
+                    - generic [ref=e160]: 22 comments
+                  - button "Like post by typescript_guru" [ref=e161]:
+                    - generic [ref=e162]: ♥
+                    - generic [ref=e163]: "156"
+          - link [ref=e164] [cursor=pointer]:
+            - /url: /nextjs_wizard/nextjs-app-router
+            - article [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e168]:
+                  - generic "nextjs_wizard" [ref=e169]:
+                    - img "nextjs_wizard" [ref=e170]
+                  - generic [ref=e171]:
+                    - generic [ref=e172]: nextjs_wizard
+                    - generic [ref=e173]: 2024년 4월 13일
+                - 'heading "Next.js 15: Understanding App Router and Server Components" [level=3] [ref=e174]'
+                - paragraph [ref=e175]: Explore the Next.js App Router and Server Components. This post covers routing strategies, data fetching patterns, and performance optimization.
+                - generic [ref=e176]:
+                  - generic [ref=e177]: "#nextjs"
+                  - generic [ref=e178]: "#server-components"
+                  - generic [ref=e179]: "#performance"
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - generic [ref=e182]: 15 min read
+                    - generic [ref=e183]: 3,201 views
+                    - generic [ref=e184]: 51 comments
+                  - button "Like post by nextjs_wizard" [ref=e185]:
+                    - generic [ref=e186]: ♥
+                    - generic [ref=e187]: "389"
+          - link [ref=e188] [cursor=pointer]:
+            - /url: /css_expert/tailwind-css-v4
+            - article [ref=e189]:
+              - 'img "Tailwind CSS v4: The Future of Utility-First Styling" [ref=e191]'
+              - generic [ref=e192]:
+                - generic [ref=e194]:
+                  - generic "css_expert" [ref=e195]:
+                    - img "css_expert" [ref=e196]
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: css_expert
+                    - generic [ref=e199]: 2024년 4월 12일
+                - 'heading "Tailwind CSS v4: The Future of Utility-First Styling" [level=3] [ref=e200]'
+                - paragraph [ref=e201]: Tailwind CSS v4 brings powerful new features for modern web development. Discover the improvements and how to migrate your projects.
+                - generic [ref=e202]:
+                  - generic [ref=e203]: "#css"
+                  - generic [ref=e204]: "#tailwind"
+                  - generic [ref=e205]: "#styling"
+                - generic [ref=e206]:
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: 8 min read
+                    - generic [ref=e209]: 892 views
+                    - generic [ref=e210]: 15 comments
+                  - button "Like post by css_expert" [ref=e211]:
+                    - generic [ref=e212]: ♥
+                    - generic [ref=e213]: "123"
+          - link [ref=e214] [cursor=pointer]:
+            - /url: /state_manager/zustand-state-management
+            - article [ref=e215]:
+              - generic [ref=e216]:
+                - generic [ref=e218]:
+                  - generic "state_manager" [ref=e219]:
+                    - img "state_manager" [ref=e220]
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: state_manager
+                    - generic [ref=e223]: 2024년 4월 11일
+                - heading "Mastering Zustand for State Management" [level=3] [ref=e224]
+                - paragraph [ref=e225]: Zustand is a lightweight state management library for React. Learn how to use it effectively in your applications with practical examples.
+                - generic [ref=e226]:
+                  - generic [ref=e227]: "#state-management"
+                  - generic [ref=e228]: "#zustand"
+                  - generic [ref=e229]: "#react"
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: 9 min read
+                    - generic [ref=e233]: 1,205 views
+                    - generic [ref=e234]: 12 comments
+                  - button "Like post by state_manager" [ref=e235]:
+                    - generic [ref=e236]: ♥
+                    - generic [ref=e237]: "95"
+  - button "Open Next.js Dev Tools" [ref=e50] [cursor=pointer]:
+    - img [ref=e51]
+  - alert [ref=e54]

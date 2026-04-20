@@ -14,14 +14,20 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
+    "@lukemorales/query-key-factory": "^1.3.4",
     "@tanstack/react-query": "^5.0.0",
+    "@uiw/react-md-editor": "^4.1.0",
     "axios": "^1.0.0",
     "inversify": "^6.0.0",
     "next": "16.2.3",
     "next-themes": "^0.2.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
     "reflect-metadata": "^0.1.0",
+    "rehype-highlight": "^7.0.2",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.1",
     "zod": "^3.0.0",
     "zustand": "^4.4.0"
   },

@@ -1,0 +1,44 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: Title *
+        - textbox "Post title" [ref=e7]: Welcome to MarkdownEditor
+        - paragraph [ref=e8]: "Slug: welcome-to-markdowneditor"
+      - generic [ref=e9]:
+        - generic [ref=e10]: Excerpt (Optional)
+        - textbox "Brief summary of your post" [ref=e11]: Learn how to use the MarkdownEditor
+        - paragraph [ref=e12]: 35/160
+      - generic [ref=e13]:
+        - generic [ref=e14]: Cover Image (Optional)
+        - generic [ref=e15]:
+          - textbox "https://example.com/image.jpg" [ref=e16]: https://via.placeholder.com/800x400
+          - button "Upload" [ref=e17]
+        - img "cover" [ref=e53]
+    - button "Full Width" [ref=e55]
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: Markdown Editor
+        - textbox "Write your markdown here... (supports drag & drop images)" [active] [ref=e23]: "# Getting Started ## Features - **Markdown support** with preview - Image drag-and-drop upload - Auto-save to localStorage - Auto slug generation ## Example Write some markdown here! ```javascript const hello = () => console.log('Hello, World!'); ``` > This is a blockquote"
+      - generic [ref=e24]:
+        - generic [ref=e25]: Preview
+        - generic [ref=e27]:
+          - heading "Getting Started" [level=1] [ref=e28]
+          - heading "Features" [level=2] [ref=e29]
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - strong [ref=e32]: Markdown support
+              - text: with preview
+            - listitem [ref=e33]: Image drag-and-drop upload
+            - listitem [ref=e34]: Auto-save to localStorage
+            - listitem [ref=e35]: Auto slug generation
+          - heading "Example" [level=2] [ref=e36]
+          - paragraph [ref=e37]: Write some markdown here!
+          - code [ref=e39]:
+            - text: const hello = (
+            - text: ) => console.log('Hello, World!');
+          - blockquote [ref=e40]:
+            - paragraph [ref=e41]: This is a blockquote
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48]
+  - alert [ref=e51]

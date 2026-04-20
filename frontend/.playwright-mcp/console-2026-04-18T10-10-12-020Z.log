@@ -1,0 +1,41 @@
+[     286ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[     353ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[     366ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fapi.dicebear.com%2F7.x%2Favataaars%2Fsvg%3Fseed%3Dtypescript_guru&w=32&q=75:0
+[     438ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fapi.dicebear.com%2F7.x%2Favataaars%2Fsvg%3Fseed%3Dreact_master&w=32&q=75:0
+[     442ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fapi.dicebear.com%2F7.x%2Favataaars%2Fsvg%3Fseed%3Dcss_expert&w=32&q=75:0
+[     449ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fapi.dicebear.com%2F7.x%2Favataaars%2Fsvg%3Fseed%3Dnextjs_wizard&w=32&q=75:0
+[     461ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1633356122544-f134324ef6db%3Fw%3D800%26h%3D400%26fit%3Dcrop&w=640&q=75:0
+[     757ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[     836ms] [LOG] [Fast Refresh] done in 184ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[    9005ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[    9068ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[   16645ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=https%3A%2F%2Fapi.dicebear.com%2F7.x%2Favataaars%2Fsvg%3Fseed%3Dstate_manager&w=32&q=75:0
+[   18757ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[   18758ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[   62565ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[   63083ms] [LOG] [Fast Refresh] done in 632ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[   63166ms] [ERROR] %o
+
+%s TypeError: Cannot read properties of undefined (reading 'publishedAt')
+    at PostDetail (http://localhost:3000/_next/static/chunks/_0~8oxeg._.js:191:41)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:6081:21)
+    at updateSimpleMemoComponent (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:5944:16)
+    at updateMemoComponent (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:5919:302)
+    at beginWork (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:6778:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_react-dom_0.zskmz._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/03qy_next_dist_compiled_09u7fr~._.js:2647:64) The above error occurred in the <PostDetail> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://localhost:3000/_next/static/chunks/03qy_next_dist_client_0qnb8cp._.js:1998
+[  170270ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  170333ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  170696ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  170837ms] [LOG] [Fast Refresh] done in 219ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  201139ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  201204ms] [LOG] [Fast Refresh] done in 173ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  201615ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  201694ms] [LOG] [Fast Refresh] done in 186ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431

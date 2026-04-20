@@ -1,0 +1,7 @@
+[     175ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[     223ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[     344ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[     413ms] [LOG] [Fast Refresh] done in 175ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[     971ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://via.placeholder.com/800x400:0
+[   49362ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[   49363ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431

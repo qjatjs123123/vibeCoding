@@ -1,0 +1,21 @@
+[  103154ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/dev/postcard:0
+[  104415ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  104747ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  105105ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  105197ms] [LOG] [Fast Refresh] done in 206ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  380376ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  380610ms] [LOG] [Fast Refresh] done in 338ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  458510ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  458682ms] [LOG] [Fast Refresh] done in 286ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  516913ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  517049ms] [LOG] [Fast Refresh] done in 245ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  624213ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  624282ms] [LOG] [Fast Refresh] done in 184ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  634964ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  635089ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  699970ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[  700019ms] [LOG] [Fast Refresh] done in 161ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[ 1207597ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[ 1207649ms] [LOG] [Fast Refresh] done in 164ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[ 1207767ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431
+[ 1208275ms] [LOG] [Fast Refresh] done in 623ms @ http://localhost:3000/_next/static/chunks/03qy_next_dist_0crlga7._.js:2431

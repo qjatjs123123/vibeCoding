@@ -1,6 +1,7 @@
 import axios, { AxiosInstance } from 'axios';
+import { useAuthStore } from '@/stores/authStore';
 
-const baseURL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+const baseURL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 export const axiosInstance: AxiosInstance = axios.create({
   baseURL,
@@ -10,10 +11,13 @@ export const axiosInstance: AxiosInstance = axios.create({
   },
 });
 
-// 요청 인터셉터
+// 요청 인터셉터 - Authorization 토큰 추가
 axiosInstance.interceptors.request.use(
   config => {
-    // 인증 헤더 추가 (필요 시)
+    const session = useAuthStore.getState().session;
+    if (session?.token) {
+      config.headers.Authorization = `Bearer ${session.token}`;
+    }
     return config;
   },
   error => Promise.reject(error)
